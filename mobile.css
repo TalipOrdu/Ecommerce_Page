@@ -1,0 +1,23 @@
+#navbar ul li a{
+    font-size: 1rem;
+
+}
+#navbar ul li a:hover{
+    font-size: 1.2rem;
+
+}
+#navbar h1{
+    font-size: 3rem;
+}
+#home img{
+    width: 90%;
+    margin: 2rem;
+    padding: 10px;
+    border-radius: 20px;
+}
+#home p{
+    font-size: 2.6rem;
+}
+#contact label{
+    font-size: 3.5rem;
+}

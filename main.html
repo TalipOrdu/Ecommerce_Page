@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Page</title>
+
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- bootsrap-css -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!--google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:ital,wght@0,400;1,600&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" media="(max-width:700px)" href="mobile.css">
+</head>
+
+<body>
+    <span class="bg-green">
+        <div class="container">
+            <nav id="navbar">
+                <h1>FreshShop</h1>
+                <ul class="nav nav-tabs justify-content-between ">
+                    <li><a href="#home"><b>Ana Sayfa</b> </a></li>
+                    <li><a href="#product"><b>Ürünler</b> </a></li>
+                    <li><a href="#contact"><b>Bize Ulaşın</b> </a></li>
+                    <li class="dropdown">
+                        <a href="#category" class="nav-link dropdown-toggle" data-toggle="dropdown"><b>Kategoriler</b>
+                        </a>
+
+                        <div class="dropdown-menu">
+                            <a href="#nuts" class="dropdown-item">Çerezler</a>
+                            <a href="#desserts" class="dropdown-item">Tatlılar</a>
+                            <div class="dropdown-divider"></div>
+                            <a href="#" class="dropdown-item">Sepetim</a>
+
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+    </span>
+
+
+
+    <section id="home">
+        <br><br><br><br>
+        <h3><I><b>Kalitenin Tek Adresi FreshShop</b> </I> </h3>
+        <img src="img.jpg" alt="tatlı">
+        <img src="kuruyemis-702x450.jpg" alt="kuruyemis">
+        <img src="images.jpg" alt="tatlı2">
+        <p><br> Tecrübeli kadromuz ve uygun fiyatlarımızla en kaliteli ürünlerimizi sizlerle buluşturmak için çalışıyoruz.
+            <br> bizi tercih ettiğiniz için teşekkür ederiz. <br> 1982'den beri...
+        </p>
+    </section>
+
+    <section id="product">
+        <br><br>
+        <h3 class="text-center"><strong>Ürünlerimiz</strong> </h3>
+        <div id="nuts"></div>
+        <h3>Çerezler</h3>
+
+        <div class="row">
+            <div class="col-md">
+
+                <div class="card text-center">
+                    <img src="antep-fistigi2.jpg" class="card-img-top" alt="python">
+
+                    <div class="card-body">
+                        <div class="card-title">
+                            <h4><b>Antep Fıstığı</b> </h4>
+                        </div>
+                        <div class="card-text">
+                            <p>Çerez tabaklarımızın ve tatlıların vazgeçilmezi olan antep fıstığının en kalitelisi
+                                <br><b>Fiyat : 80 tl / kg</b> 
+                            </p>
+                        </div>
+
+                        <a href="#" class="btn btn-primary btn-block">Satın al</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md">
+
+                <div class="card text-center">
+                    <img src="fındık.jpg" class="card-img-top" alt="python">
+
+                    <div class="card-body">
+                        <div class="card-title">
+                            <h4>Fındık</h4>
+                        </div>
+                        <div class="card-text">
+                            <p>Rizenin yüksek dağlarından özenle toplanmış fındıkları
+                            <br><b>Fiyat : 90 tl /kg</b>
+                            </p>
+                        </div>
+
+                        <a href="#" class="btn btn-primary btn-block">Satın al</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md">
+
+                <div class="card text-center">
+                    <img src="tuzlucekirdek.jpg" class="card-img-top" alt="python">
+
+                    <div class="card-body">
+                        <div class="card-title">
+                            <h4>Siyah Tuzlu Çekirdek</h4>
+                        </div>
+                        <div class="card-text">
+                            <p>Hepimizin başlayınca duramadığı o çerez Artık hiç duramayacaksınız &#128523;
+                            <br><b>fiyat : 30 tl / kg</b> 
+                            </p>
+                        </div>
+
+                        <a href="#" class="btn btn-primary btn-block">Satın al</a>
+                    </div>
+                </div>
+            </div>
+
+            <div id="desserts">
+                <h3>Tatlı çeşitlerimiz</h3>
+
+                <div class="row">
+                    <div class="col-md">
+    
+                        <div class="card text-center">
+                            <img src="baklava.jpg" class="card-img-top" alt="python">
+    
+                            <div class="card-body">
+                                <div class="card-title">
+                                    <h4>Baklava</h4>
+                                </div>
+                                <div class="card-text">
+                                    <p>Bayramların vazçelimez lezzeti en çıtır hali Cevizli ve Fıstıklı çeşitleri ile sizlerle.
+                                        <br><b>Fiyat: 80 tl / kg (Cevizli) 120 tl / kg (Fıstıklı)</b>  
+                                    </p>
+                                </div>
+    
+                                <a href="#" class="btn btn-primary btn-block">Satın al</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md">
+    
+                        <div class="card text-center">
+                            <img src="ekler-one-cikan-yeni1.jpg" class="card-img-top" alt="python">
+    
+                            <div class="card-body">
+                                <div class="card-title">
+                                    <h4>Ekler</h4>
+                                </div>
+                                <div class="card-text">
+                                    <p>Küçük tatlı kaçamakları için mükemmel bir alternatif
+                                    <br><b>fiyat: 3 tl / adet</b> 
+                                    </p>
+                                </div>
+    
+                                <a href="#" class="btn btn-primary btn-block">Satın al</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md">
+    
+                        <div class="card text-center">
+                            <img src="Macaron.JPG" class="card-img-top" alt="python">
+    
+                            <div class="card-body">
+                                <div class="card-title">
+                                    <h4>Makaron</h4>
+                                </div>
+                                <div class="card-text">
+                                    <p>Çeşitli aromaları ile çocukların vazgeçilmezi
+                                        <br><b>Fiyat: 5 tl / adet</b> 
+                                    </p>
+                                </div>
+    
+                                <a href="#" class="btn btn-primary btn-block">Satın al</a>
+                            </div>
+                        </div>
+                    </div>
+    
+                </div>
+            </div>
+            
+    </section>
+
+    <footer id="contact" class="text-center bg-green">
+        <h3 class="text-center">Bize ulaşın</h3>
+        <i class="fab fa-whatsapp"></i>
+        <label for="tel">(+90)554 186 2247</label>
+        <br>
+        <label for="adres"> Adres bilgileri : Talas/Kayseri</label>
+        <p>Sayfamızın tüm gizlilik hakları saklıdır. Copyrights 2022</p>
+    </footer>
+    <!-- bootsrap-js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>

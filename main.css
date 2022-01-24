@@ -1,0 +1,98 @@
+body{
+    background-color: rgb(113, 190, 136);
+}
+#navbar{
+    display: block;
+    text-decoration: white;
+}
+#navbar ul li a{
+    color: black;
+    font-size: 1.5rem;
+    text-decoration: none;
+    
+}
+#navbar ul li a:hover{
+    font-size: 1.75rem;
+    
+}
+#navbar h1{
+    
+    font-family: "Vibur", sans-serif;
+    background-color: rgb(113, 190, 136);
+
+    text-transform: uppercase;
+    font-weight: 200;
+    font-size: 4rem;
+
+    color: #fff;
+    text-shadow:
+      /* White glow */
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      /* Green glow */
+      0 0 42px rgb(221, 35, 35),
+      0 0 82px rgb(221, 35, 35),
+      0 0 92px rgb(221, 35, 35),
+      0 0 102px rgb(221, 35, 35),
+      0 0 151px rgb(47, 0, 255);
+}
+
+
+#home img{
+    width: 33%;
+    height: 33%;
+    border-radius: 15px;
+    padding: 10px 10px;   
+
+}
+#home p{
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 3rem;
+
+}
+#home h3{
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+#product img{
+    width: cover;
+    height: 33%;
+    
+}
+#product h3{
+    font-size: 5.5rem;
+    padding-left: 15px;
+}
+#contact{
+    font-size: 1.5rem;
+}
+#contact h3{
+    font-size: 4.5rem;
+}
+#contact i{
+    font-size: 4.5rem;
+}
+#contact label{
+    font-size: 4.5rem;
+}
+
+.card{
+    border: 2px solid black;
+}
+.bg-green{
+    background-color: rgb(252, 59, 59);
+    overflow: auto;
+}
+.card-body h4{
+    font-size: 2.8rem;
+}
+.card-body p{
+    font-size: 1.35rem;
+}
+.card-body a{
+    font-size: 2rem;
+}
